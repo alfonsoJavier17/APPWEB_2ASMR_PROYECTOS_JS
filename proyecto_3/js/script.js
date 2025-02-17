@@ -65,7 +65,7 @@ frasesFrikisInformatica =["Los programadores no tienen errores, solo experiencia
     const boton = document.querySelector(".main__boton--ver");
 
 boton.addEventListener("click", function () {
-    boton.textContent = "ver mas contenido";
+    boton.textContent = "Ver mas contenido";
     const rand_number = frasesFrikisInformatica[Math.floor(Math.random()*frasesFrikisInformatica.length)];
     texto.textContent = rand_number;
 });
