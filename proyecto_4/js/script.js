@@ -40,6 +40,8 @@ function addTask(event) {
 
     }
 }
+
+
 boton.addEventListener("click", addTask);
 
 function seleccionarTareaAleatoria() {
@@ -56,5 +58,3 @@ function seleccionarTareaAleatoria() {
     const elemento = items[indiceAleatorio]
     elemento.classList.add('seleccionado');
 };
-const botonAleatorio = document.querySelector('.main__aleatorio');
-botonAleatorio.addEventListener('click', seleccionarTareaAleatoria);
